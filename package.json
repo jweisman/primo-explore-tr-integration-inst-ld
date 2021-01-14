@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "description": "Custom View for TR_INTEGRATION_INST",
   "devDependencies": {
-    "primo-explore-lod-author-card": "0.0.1"
+    "primo-explore-lod-author-card": "0.0.3"
   }
 }

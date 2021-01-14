@@ -13,7 +13,7 @@ app.component('prmExploreMainAfter',{
 /** END Increases default results page shown to 5 pages (50 results) **/
 
 /** Linked Data Author Card */
-app.component('prmFullViewAfter', {
+app.component('prmServiceDetailsAfter', {
   bindings: {parentCtrl: '<'},
   template: `<lod-author-card-component parent-ctrl="$ctrl.parentCtrl"></lod-author-card-component>`
 });
