@@ -24,7 +24,6 @@ app.component('prmServiceDetailsAfter', {
 app.component('prmAccountOverviewAfter', {
   bindings: {parentCtrl: '<'},
   template: `<appointment-scheduler 
-    ng-if="$ctrl.parentCtrl.$stateParams.section=='overview'" 
     parent-ctrl="$ctrl.parentCtrl"
     apikey="l8xxf9499482a3fe4c79b76825aa79173c99"
     i18n='{
