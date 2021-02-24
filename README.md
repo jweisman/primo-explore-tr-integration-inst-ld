@@ -1,6 +1,10 @@
 # primo-explore-tr-integration-inst-ld
 Customization package for the `LD` view of the `TR_INTEGRATION_INST` demo integration Primo instance. 
 
+## Access
+Use this URL to access the view:
+https://tr-integration.alma.exlibrisgroup.com/discovery?vid=TR_INTEGRATION_INST:LD&lang=en
+
 ## Setup
 
 1. Clone the [Primo development environment](https://github.com/ExLibrisGroup/primo-explore-devenv) and install dependencies:

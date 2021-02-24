@@ -6,10 +6,10 @@ const app = angular.module('viewCustom', ['angularLoad', 'lodAuthorCard', 'appoi
 /** Increases default results page shown to 5 pages (50 results) **/
 app.component('prmExploreMainAfter',{
   bindings: {parentCtrl: '<'},
-  controller: function($scope){
+  controller: ['$scope', function($scope) {
       var vm = this;
       vm.parentCtrl.searchService.cheetah.configurationUtil.searchStateService.resultsBulkSize = 50;                    
-  }
+  }]
 });
 /** END Increases default results page shown to 5 pages (50 results) **/
 
@@ -31,7 +31,11 @@ app.component('prmAccountOverviewAfter', {
         appointments: "Library Appointments"
       },
       fr: {
-        appointments: "Rendez-vous à la bibliothèque"
+        appointments: "Rendez-vous à la bibliothèque",
+        appointmentlist: "Rendez-vous que vous avez programmés",
+        cancel: "Annuler",
+        addappointment: "Ajouter un rendez-vous",
+        noappointments: "Vous n&#39;avez pas de rendez-vous planifié.",
       }
     }'
   ></appointment-scheduler>`
