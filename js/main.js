@@ -16,7 +16,9 @@ app.component('prmExploreMainAfter',{
 /** Linked Data Author Card */
 app.component('prmFullViewAfter', {
   bindings: {parentCtrl: '<'},
-  template: `<lod-author-card-component parent-ctrl="$ctrl.parentCtrl"></lod-author-card-component>`
+  template: `<primo-explore-lod-author-card
+    parent-ctrl="$ctrl.parentCtrl">
+  </primo-explore-lod-author-card>`
 });
 /** END Linked Data Author Card */
 

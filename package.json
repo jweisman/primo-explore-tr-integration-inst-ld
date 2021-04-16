@@ -4,6 +4,6 @@
   "description": "Custom View for TR_INTEGRATION_INST",
   "devDependencies": {
     "primo-explore-appointment-scheduler": "0.0.11",
-    "primo-explore-lod-author-card": "0.0.4"
+    "primo-explore-lod-author-card": "0.0.6"
   }
 }
