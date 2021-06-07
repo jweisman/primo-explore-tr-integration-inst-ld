@@ -2,8 +2,8 @@
   "name": "primo-explore-tr-integration-inst-view1",
   "version": "0.0.1",
   "description": "Custom View for TR_INTEGRATION_INST",
-  "devDependencies": {
-    "primo-explore-appointment-scheduler": "0.0.11",
+  "dependencies": {
+    "primo-studio-appointment-scheduler": "^0.1.0",
     "primo-explore-lod-author-card": "0.0.6"
   }
 }

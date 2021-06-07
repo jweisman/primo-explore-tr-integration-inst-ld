@@ -1,5 +1,5 @@
 import 'primo-explore-lod-author-card';
-import 'primo-explore-appointment-scheduler';
+import 'primo-studio-appointment-scheduler';
 
 const app = angular.module('viewCustom', ['angularLoad', 'lodAuthorCard', 'appointmentScheduler']);
 
@@ -25,9 +25,10 @@ app.component('prmFullViewAfter', {
 /** Appointment Scheduler in Library Card */
 app.component('prmAccountOverviewAfter', {
   bindings: {parentCtrl: '<'},
-  template: `<appointment-scheduler 
+  template: `<primo-studio-appointment-scheduler 
     parent-ctrl="$ctrl.parentCtrl"
-    apikey="l8xxf9499482a3fe4c79b76825aa79173c99"
+    sandbox="false"
+    first-day-of-week=0
     i18n='{
       en: {
         appointments: "Library Appointments"
@@ -40,6 +41,6 @@ app.component('prmAccountOverviewAfter', {
         noappointments: "Vous n&#39;avez pas de rendez-vous planifié.",
       }
     }'
-  ></appointment-scheduler>`
+  ></primo-studio-appointment-scheduler>`
 });
 /** END Appointment Scheduler in Library Card */
